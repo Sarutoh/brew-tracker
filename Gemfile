@@ -26,3 +26,5 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails', '~> 6.0.0'
 end
+
+gem 'simplecov', require: false, group: :test
